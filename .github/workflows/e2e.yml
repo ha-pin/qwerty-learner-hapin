@@ -2,8 +2,7 @@ name: Qwerty E2E Workflows
 on:
   push:
     branches:
-      - master
-      - dev/e2e
+      - hapin
 jobs:
   e2e:
     runs-on: ubuntu-latest
