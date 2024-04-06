@@ -28,6 +28,7 @@ export default defineConfig(async ({ mode }) => {
         },
       }),
     ],
+    base: '/qwerty-learner-hapin',
     build: {
       minify: true,
       outDir: 'build',
