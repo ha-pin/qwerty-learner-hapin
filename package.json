@@ -56,7 +56,7 @@
   "scripts": {
     "dev": "vite",
     "start": "vite",
-    "build": "cross-env CI=false vite build",
+    "build": "cross-env CI=false REACT_APP_DEPLOY_ENV=pages vite build",
     "test": "echo \"No tests\"",
     "test:e2e": "playwright test",
     "lint": "eslint .",
