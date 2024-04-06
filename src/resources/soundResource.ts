@@ -100,4 +100,13 @@ export const LANG_PRON_MAP: LanguagePronunciationMap = {
       },
     ],
   },
+  kk: {
+    defaultPronIndex: 0,
+    pronunciation: [
+      {
+        name: '哈萨克语',
+        pron: 'kk',
+      },
+    ],
+  },
 }

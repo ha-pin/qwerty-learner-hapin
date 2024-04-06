@@ -43,7 +43,7 @@ const App: React.FC = () => {
     if (!IsDesktop()) {
       setTimeout(() => {
         alert(
-          ' Qwerty Learner 目的为提高键盘工作者的英语输入效率，目前暂未适配移动端，希望您使用桌面端浏览器访问。如您使用的是 Ipad 等平板电脑设备，可以使用外接键盘使用本软件。',
+          ' Qwerty Learner 目的为提高键盘工作者的哈萨克语输入效率，目前暂未适配移动端，希望您使用桌面端浏览器访问。如您使用的是 Ipad 等平板电脑设备，可以使用外接键盘使用本软件。',
         )
       }, 500)
     }
@@ -53,7 +53,7 @@ const App: React.FC = () => {
   useEffect(() => {
     const id = currentDictId
     if (!(id in idDictionaryMap)) {
-      setCurrentDictId('cet4')
+      setCurrentDictId('arabic_zh_basic_3000')
       setCurrentChapter(0)
       return
     }
