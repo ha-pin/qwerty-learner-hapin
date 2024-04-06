@@ -1,9 +1,13 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
   darkMode: ['class'],
   content: ['./src/**/*.{js,jsx,ts,tsx}', './index.html'],
   theme: {
     extend: {
+      fontFamily: {
+        mono: ['basma', ...defaultTheme.fontFamily.mono],
+      },
       keyframes: {
         'accordion-down': {
           from: { height: 0 },
