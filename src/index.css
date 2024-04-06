@@ -5,7 +5,8 @@
 @layer base {
   @font-face {
     font-family: 'basma';
-    src: url(/fonts/ALKATIP_Basma.ttf);
+    src: url('/fonts/ALKATIP_Basma.woff2') format('woff2'), url('/fonts/ALKATIP_Basma.woff') format('woff'),
+      url('/fonts/ALKATIP_Basma.ttf') format('truetype');
   }
 }
 
