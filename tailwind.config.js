@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        mono: ['basma', ...defaultTheme.fontFamily.mono],
+        mono: ['ALKATIP_Basma', ...defaultTheme.fontFamily.mono],
       },
       keyframes: {
         'accordion-down': {
